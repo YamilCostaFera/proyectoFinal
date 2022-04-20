@@ -1,3 +1,25 @@
+@media (max-width: 575.98px){
+    .footer__0{
+        text-align: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .footer__1{
+        text-align: center;
+    }
+    .footer__2{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1200px){
+   
+}
+
+
+
+
 footer{
     .footer{
         background-color: $grey_topo;
@@ -24,6 +46,14 @@ footer{
         }
         .mail:hover{
             color: blue;
+        }
+        .rotate_1{
+            display: block;
+            transition: transform 1s;
+        }
+        .rotate_1:hover{
+            transform: rotate(360deg) translateZ(0);
+
         }
     }
     .copy{

@@ -1,3 +1,97 @@
+body section .form__design {
+  background-color: #262525;
+  color: white;
+}
+
+body section .form__design input {
+  background-color: #262525;
+  border: none;
+  border-bottom: solid 1px white;
+  border-radius: 0px;
+  font-weight: bold;
+}
+
+body section .form__design input:focus {
+  background-color: #262525;
+  color: white;
+}
+
+body section .form__design textarea, body section .form__design option {
+  background-color: #262525;
+  color: white;
+}
+
+body section .form__design #btn__form {
+  border: 1px solid white;
+  border-radius: 0px;
+  background-color: #262525;
+  color: white;
+}
+
+body section .form__design #btn__form:hover {
+  border: 1px solid white;
+  background-color: white;
+  color: #262525;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 575.98px) {
+  .media__esp {
+    text-align: center;
+  }
+  .resp__esp img {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .resp__esp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+section .imgFilter:hover {
+  -webkit-filter: sepia(60%);
+          filter: sepia(60%);
+}
+
+section .hr__esp {
+  width: 400px;
+  height: 10px;
+  color: #350435;
+  opacity: 100;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+section .font__style {
+  font-size: 18px;
+}
+
+@media (max-width: 575.98px) {
+  .footer__0 {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+  }
+  .footer__1 {
+    text-align: center;
+  }
+  .footer__2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+
 footer .footer {
   background-color: #262525;
 }
@@ -29,6 +123,19 @@ footer .redes .mail:hover {
   color: blue;
 }
 
+footer .redes .rotate_1 {
+  display: block;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+footer .redes .rotate_1:hover {
+  -webkit-transform: rotate(360deg) translateZ(0);
+          transform: rotate(360deg) translateZ(0);
+}
+
 footer .copy {
   background-color: #262525;
   padding: 5px 0px;
@@ -37,6 +144,10 @@ footer .copy {
 
 html {
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 ::after ::before {
@@ -87,8 +198,20 @@ li {
   }
 }
 
+body {
+  position: relative;
+}
+
 nav #nav_hover:hover {
   border-bottom: 1px solid #350435;
+  color: burlywood;
+}
+
+nav #navCald {
+  color: #262525;
+}
+
+nav #navCald:hover {
   color: burlywood;
 }
 
