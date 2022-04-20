@@ -1,0 +1,183 @@
+footer .footer {
+  background-color: #262525;
+}
+
+footer .footer .list_1 li {
+  color: white;
+  font-family: 'Parisienne', cursive;
+  font-size: 32px;
+}
+
+footer .footer .list_2 {
+  color: white;
+}
+
+footer .redes #iconos:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+footer .redes .wp:hover {
+  background-color: #27d741;
+}
+
+footer .redes .ig:hover {
+  color: #c51a7b;
+}
+
+footer .redes .mail:hover {
+  color: blue;
+}
+
+footer .copy {
+  background-color: #262525;
+  padding: 5px 0px;
+  color: whitesmoke;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+::after ::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+@media (max-width: 1000px) {
+  main .logo {
+    display: none;
+  }
+  main .h1__resp {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  section div #card__resp {
+    margin-top: 30px;
+  }
+  article .contactUs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  article .btn__resp {
+    margin: 40px 0px;
+  }
+  article .cont__text {
+    margin-bottom: 20px;
+  }
+  article .contImg__resp {
+    margin-bottom: 20px;
+  }
+}
+
+nav #nav_hover:hover {
+  border-bottom: 1px solid #350435;
+  color: burlywood;
+}
+
+main .metro {
+  width: 100%;
+  position: relative;
+}
+
+main .metro img {
+  width: 100%;
+}
+
+main .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .h1 {
+  background-color: #262525;
+}
+
+main .h1 h1 {
+  color: white;
+  text-align: center;
+}
+
+section .somos {
+  font-size: 35px;
+}
+
+section .somos_text {
+  text-align: justify;
+}
+
+section .cards__style:hover {
+  -webkit-box-shadow: 1px 1px 10px 2px;
+          box-shadow: 1px 1px 10px 2px;
+}
+
+section div .card__cont:hover .card__img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+section div .card__cont {
+  overflow: hidden;
+}
+
+article #contactBtn {
+  background-color: #810981;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+article #contactBtn:hover {
+  background-color: #c60ec6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: white;
+}
+
+article .contactUs {
+  background-color: #262525;
+}
+
+article .contactText {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+article .contactHr {
+  height: 3px;
+  background-color: burlywood;
+  width: 150px;
+}
+
+aside .carouselShadow {
+  -webkit-box-shadow: 1px 1px 5px 2px;
+          box-shadow: 1px 1px 5px 2px;
+}
+
+aside .btn__carousel {
+  background-color: #262525;
+  color: #262525;
+}
+/*# sourceMappingURL=style.css.map */

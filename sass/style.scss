@@ -1,0 +1,177 @@
+@import "./base/extends";
+@import "./base/variables";
+// SECTIONS
+@import "./sections/contact";
+@import "./sections/especialidades";
+@import "./sections/faqs";
+@import "./sections/nosotros";
+@import "./sections/footer";
+
+
+
+html{
+    overflow-x: hidden;
+}
+
+::after ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+        list-style: none;
+}
+
+
+// RESPONSIVE
+@media (max-width: 1000px){
+    main{
+        .logo{
+            display: none;
+        }
+    
+        .h1__resp{
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+    }
+    section{
+        div{
+            #card__resp{
+                margin-top: 30px;
+            }
+        }
+        
+    }
+    article{
+        .contactUs{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn__resp{
+            margin: 40px 0px;
+        }
+        .cont__text{
+            margin-bottom: 20px;
+        }
+        .contImg__resp{
+            margin-bottom: 20px;
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+// NAV-BAR
+nav{   
+    #nav_hover:hover{
+        border-bottom: 1px solid $violet_dark;
+        color: burlywood;
+    }
+
+}
+
+
+// MAIN
+main{
+    .metro{
+        width: 100%;
+        position: relative;
+        img{
+            width: 100%;
+        }
+    }
+    .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .h1{
+        background-color: $grey_topo;
+            h1{
+                color:white;
+                text-align: center;
+                
+            }
+    }
+}
+
+
+// SECTION
+section{
+    .somos{
+        font-size: 35px;
+    }
+    .somos_text{
+        text-align: justify;
+            
+    }
+    .cards__style:hover{
+        box-shadow: 1px 1px 10px 2px;
+    }
+
+    div{
+        .card__cont:hover .card__img {
+            -webkit-transform:scale(1.2);transform:scale(1.2);
+        }
+        .card__cont {
+            overflow:hidden;
+        }
+    }
+        
+}
+
+// ACTICLE
+article{
+    #contactBtn{
+        background-color: rgb(129, 9, 129);
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+    #contactBtn:hover{
+        background-color: rgb(198, 14, 198);
+        transition: 0.5s;
+        color: white;
+    }
+
+    .contactUs{
+        background-color: $grey_topo;
+    }
+    .contactText{
+        color: white;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .contactHr{
+        height: 3px;
+        background-color: burlywood;
+        width: 150px;
+    }
+}
+aside{
+    // .columns{
+    //     height: 519px;
+    //     width: 300px;
+    //     background-color: $grey_topo;
+    //     border: 1px solid black;
+    // }
+    .carouselShadow{
+        box-shadow: 1px 1px 5px 2px;
+    }
+    .btn__carousel{
+        background-color: $grey_topo;
+        color: $grey_topo;
+    }
+}

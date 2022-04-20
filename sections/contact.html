@@ -13,10 +13,85 @@
     <!-- FAVICON -->
     <link rel="shortcut icon" href="../img/favicon/favicon.ico" type="image/x-icon">
     <!-- CSS -->
-    <title>Document</title>
+    <link rel="stylesheet" href="../sass/style.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- TITLE -->
+    <title>Somos el Estudio Jurídico Calderon y Asociados, brindamos servicio juridico de excelencia, defende tus derechos | Contacto</title>
 </head>
+
+
 <body>
-    
+    <section class="col-8 container-fluid">
+        <form class="form__design row g-3 pt-3 pb-3 ps-4 pe-4 mt-2 mb-2">
+                <div class="col-md-6">
+                    <label for="inputName4" class="form-label">Nombre/s</label>
+                    <input type="text" class="form-control" id="inputName4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputFname4" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="inputFName4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputAddress" class="form-label">Calle</label>
+                    <input type="text" class="form-control" id="inputAddress">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputAddress2" class="form-label">Altura</label>
+                    <input type="text" class="form-control" id="inputAddress2">
+                </div>
+                <div class="col-md-1">
+                    <label for="piso" class="form-label">Piso</label>
+                    <input type="number" class="form-control" id="piso">
+                </div>
+                <div class="col-md-1">
+                    <label for="dpto" class="form-label">Dpto</label>
+                    <input type="text" class="form-control" id="dpto">
+                </div>
+                <div class="col-md-5">
+                    <label for="localidad" class="form-label">Localidad</label>
+                    <input type="text" class="form-control" id="localidad">
+                </div>
+                <div class="col-md-5">
+                    <label for="provincia" class="form-label">Provincia</label>
+                    <input type="text" class="form-control" id="provincia">
+                </div>
+                <div class="col-md-2">
+                <label for="inputZip" class="form-label">Código Postal</label>
+                <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label" for="autoSizingSelect">Tipo Doc</label>
+                    <select class="form-select" id="autoSizingSelect">
+                      <option selected>Seleccione..</option>
+                      <option value="1">DNI</option>
+                      <option value="2">PASAPORTE</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="nro-doc" class="form-label">Numeros sin puntos</label>
+                    <input type="text" class="form-control" id="nro-doc">
+                </div>
+                <div class="col-md-6">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escriba su consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <input type="reset" class="btn-check" id="reset">
+                    <label id="btn__form" class="btn btn-primary fw-bold" for="reset">Limpiar Formulario</label>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">    
+                    <input type="submit" class="btn-check" id="enviar">
+                    <label id="btn__form" class="btn btn-primary fw-bold" for="enviar">Enviar Consulta</label>
+                </div>
+        </form>
+    </section>
 </body>
 <!-- SCRIPTS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

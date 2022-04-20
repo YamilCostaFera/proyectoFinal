@@ -1,0 +1,34 @@
+footer{
+    .footer{
+        background-color: $grey_topo;
+    
+            .list_1 li{
+                color: white;
+                font-family: 'Parisienne', cursive;
+                font-size: 32px;
+            }
+            .list_2{
+                color:white;
+            }
+    }
+    .redes{
+        
+        #iconos:hover{
+            transform: rotate(360deg);
+        }
+        .wp:hover{
+            background-color:rgb(39, 215, 65);
+        }
+        .ig:hover{
+            color: rgb(197, 26, 123);
+        }
+        .mail:hover{
+            color: blue;
+        }
+    }
+    .copy{
+        background-color: $grey_topo;
+        padding: 5px 0px;
+        color: whitesmoke;
+    }        
+}
