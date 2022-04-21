@@ -73,6 +73,16 @@ html{
     }
 }
 
+@media (max-width: 575.98px){
+    section{
+        div{
+            #card__2{
+                margin-top: 30px;
+            }
+        }
+        
+    }
+}
 
 
 body{
@@ -125,8 +135,11 @@ main{
 
 // SECTION
 section{
-    hr{
-        @extend%hr_style;
+    #hr__noticias{
+        width: 200px;
+        height: 8px;
+        color: $violet_dark;
+        opacity: 100;
     }    
     .somos{
         font-size: 35px;
@@ -180,7 +193,7 @@ article{
     }
 }
 aside{
-    .hr_aside{
+    .hr__actualizados{
         @extend%hr_style;
     }
     .carouselShadow{
