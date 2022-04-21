@@ -1,3 +1,5 @@
+@import url(../base/_variables.scss);
+@import url(../base/_extends.scss);
 body section .form__design {
   background-color: #262525;
   color: white;
@@ -57,6 +59,10 @@ body section .form__design #btn__form:hover {
   }
 }
 
+section .imgFilter {
+  border-radius: 30px;
+}
+
 section .imgFilter:hover {
   -webkit-filter: sepia(60%);
           filter: sepia(60%);
@@ -75,6 +81,46 @@ section .font__style {
   font-size: 18px;
 }
 
+section .materia__style:hover {
+  color: gold;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+section .accordion-button:focus {
+  background-color: #3e3e3e;
+  color: white;
+}
+
+section .accordion-button {
+  border: none;
+  background-color: grey;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  #envolver {
+    display: none;
+  }
+}
+
+section .hr__nos {
+  width: 200px;
+  height: 8px;
+  color: #350435;
+  opacity: 100;
+}
+
+section #envolver {
+  float: right;
+  border-radius: 50px;
+}
+
+section .nos__text {
+  text-align: justify;
+}
+
 @media (max-width: 575.98px) {
   .footer__0 {
     text-align: center;
@@ -89,6 +135,12 @@ section .font__style {
   .footer__2 {
     margin-bottom: 30px;
     margin-top: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer__1 {
+    font-size: 14px;
   }
 }
 
@@ -161,7 +213,7 @@ li {
   list-style: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   main .logo {
     display: none;
   }

@@ -1,6 +1,21 @@
+@import url(../base/_variables.scss);
+@import url(../base/_extends.scss);
+
 section{
-    #style_flush{
-        border:none;
-        
+    .materia__style:hover{
+        color: gold;
+        transition: 0.5s;
+        opacity: 0.8;
+
+    }
+    .accordion-button:focus{
+        background-color: rgb(62, 62, 62);
+        color: white;
+    }
+    .accordion-button{
+        border: none;
+        background-color: grey;
+        color: white;
     }
 }
+

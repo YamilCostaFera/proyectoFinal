@@ -28,7 +28,7 @@ li{
 
 
 // RESPONSIVE
-@media (max-width: 1000px){
+@media (max-width: 1200px){
     main{
         .logo{
             display: none;
@@ -120,6 +120,9 @@ main{
 
 // SECTION
 section{
+    hr{
+        @extend%hr_style;
+    }    
     .somos{
         font-size: 35px;
     }
@@ -172,12 +175,9 @@ article{
     }
 }
 aside{
-    // .columns{
-    //     height: 519px;
-    //     width: 300px;
-    //     background-color: $grey_topo;
-    //     border: 1px solid black;
-    // }
+    .hr_aside{
+        @extend%hr_style;
+    }
     .carouselShadow{
         box-shadow: 1px 1px 5px 2px;
     }

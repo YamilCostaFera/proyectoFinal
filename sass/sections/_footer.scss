@@ -1,10 +1,12 @@
+@import url(../base/_extends.scss);
+@import url(../base/_variables.scss);
+
 @media (max-width: 575.98px){
     .footer__0{
         text-align: center;
         justify-content: center;
         margin-top: 30px;
     }
-    
     .footer__1{
         text-align: center;
     }
@@ -14,7 +16,9 @@
     }
 }
 @media (max-width: 1200px){
-    
+    .footer__1{
+        font-size: 14px;
+    }
 }
 
 
