@@ -1,5 +1,11 @@
+@import url(../base/_extends.scss);
+@import url(../base/_variables.scss);
 @import url(../base/_variables.scss);
 @import url(../base/_extends.scss);
+@import url(../base/_extends.scss);
+@import url(../base/_variables.scss);
+@import url(../base/_extends.scss);
+@import url(../base/_variables.scss);
 body section .form__design {
   background-color: #262525;
   color: white;
@@ -81,6 +87,18 @@ section .font__style {
   font-size: 18px;
 }
 
+@media (max-width: 575.98px) {
+  aside img {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  aside img {
+    size: 75%;
+  }
+}
+
 section .materia__style:hover {
   color: gold;
   -webkit-transition: 0.5s;
@@ -91,6 +109,9 @@ section .materia__style:hover {
 section .accordion-button:focus {
   background-color: #3e3e3e;
   color: white;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  box-shadow: none;
 }
 
 section .accordion-button {
@@ -106,7 +127,7 @@ section .accordion-button {
 }
 
 section .hr__nos {
-  width: 200px;
+  width: 150px;
   height: 8px;
   color: #350435;
   opacity: 100;
@@ -194,10 +215,17 @@ footer .copy {
   color: whitesmoke;
 }
 
+body, html, div, blockquote, img, label, p, h2, h3, h4, h5, h6, pre, ul,
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  list-style: none;
+}
+
 html {
   overflow-x: hidden;
-  padding: 0;
-  margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -209,8 +237,13 @@ html {
           box-sizing: border-box;
 }
 
-li {
-  list-style: none;
+@media (max-width: 575.98px) {
+  main .h1__resp {
+    font-size: 23px;
+  }
+  main .somos {
+    font-size: 21px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -315,6 +348,13 @@ section div .card__cont {
   overflow: hidden;
 }
 
+section .hr__noticias {
+  width: 150px;
+  height: 8px;
+  color: #350435;
+  opacity: 100;
+}
+
 article #contactBtn {
   background-color: #810981;
   border: none;
@@ -344,6 +384,13 @@ article .contactHr {
   height: 3px;
   background-color: burlywood;
   width: 150px;
+}
+
+aside .hr__act {
+  width: 150px;
+  height: 8px;
+  color: #350435;
+  opacity: 100;
 }
 
 aside .carouselShadow {

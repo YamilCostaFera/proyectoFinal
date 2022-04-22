@@ -1,6 +1,24 @@
 @import url(../base/_variables.scss);
 @import url(../base/_extends.scss);
 
+// RESPONSIVE
+
+@media (max-width: 575.98px){
+    aside{
+        img{
+            display: none;
+        }
+    }
+}
+@media (max-width: 1200px){
+    aside{
+        img{
+            size: 75%;
+        }
+    }
+}
+
+
 section{
     .materia__style:hover{
         color: gold;
@@ -11,6 +29,8 @@ section{
     .accordion-button:focus{
         background-color: rgb(62, 62, 62);
         color: white;
+        box-shadow: none;
+        box-shadow: none;
     }
     .accordion-button{
         border: none;

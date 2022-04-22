@@ -9,7 +9,7 @@
 
 
 //RESET CSS
-body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,
+body, html, div, blockquote, img, label, p, h2, h3,h4, h5, h6, pre, ul,
 ol, li, dl, dt, dd, form, a, fieldset, input, th, td, footer {
     margin: 0; 
     padding: 0; 
@@ -18,9 +18,6 @@ ol, li, dl, dt, dd, form, a, fieldset, input, th, td, footer {
     list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-font-size: 100%;
-}
 html{
     overflow-x: hidden;
     box-sizing: border-box;
@@ -33,6 +30,17 @@ html{
 }
 
 // RESPONSIVE
+@media (max-width: 575.98px){
+    main{
+        .h1__resp{
+            font-size: 23px;
+        }
+        .somos{
+            font-size: 21px;
+        }
+    }
+}
+
 @media (max-width: 1200px){
     main{
         .logo{
@@ -121,7 +129,7 @@ main{
 
 
 // SECTION
-section{    
+section{
     .somos{
         font-size: 35px;
     }
@@ -140,6 +148,12 @@ section{
         .card__cont {
             overflow:hidden;
         }
+    }
+    .hr__noticias{
+        width: 150px;
+        height: 8px;
+        color: $violet_dark;
+        opacity: 100;
     }
         
 }
@@ -174,6 +188,12 @@ article{
     }
 }
 aside{
+    .hr__act{
+        width: 150px;
+        height: 8px;
+        color: $violet_dark;
+        opacity: 100;
+    }
     .carouselShadow{
         box-shadow: 1px 1px 5px 2px;
     }
